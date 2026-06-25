@@ -1,0 +1,4 @@
+interface:
+  display_name: "CodeGraph"
+  short_description: "Inspect indexed codebases with CodeGraph"
+  default_prompt: "Use $codegraph to find symbols, callers, callees, and call paths in an indexed repository."
