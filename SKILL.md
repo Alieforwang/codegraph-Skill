@@ -24,3 +24,4 @@ description: Use CodeGraph to inspect indexed repositories with symbol lookup, c
 
 - Keep questions tight and repository-specific. CodeGraph is best for structure, ownership, and call chains, not for editing code.
 - If a repository has no `.codegraph/` index, do not force this skill; index first or fall back to normal file search.
+- If the `codegraph` command is missing, use `bootstrap.sh` or `bootstrap.ps1` to install the CLI and the skill in one pass.
