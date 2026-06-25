@@ -1,5 +1,7 @@
 # CodeGraph Skill
 
+Language: [中文](#中文) | [English](#english)
+
 ## 中文
 CodeGraph 用来帮助 Codex 和 Claude 读取已建索引的代码库，快速查符号、调用链、路径关系和相关文件。
 
@@ -58,6 +60,8 @@ bash install.sh --target both
 - `A` 到 `B` 的路径是什么
 - 这个功能相关的文件有哪些
 
+[Back to top](#codegraph-skill)
+
 ## English
 CodeGraph helps Codex and Claude inspect indexed codebases with symbol lookup, call paths, related files, and project-aware exploration.
 
@@ -115,3 +119,5 @@ Once a project has a `.codegraph/` index, ask things like:
 - Who calls `Y`?
 - What is the path from `A` to `B`?
 - Which files are related to this feature?
+
+[Back to top](#codegraph-skill)
